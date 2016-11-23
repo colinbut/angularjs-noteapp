@@ -3,7 +3,7 @@
   <head>
     <title>AngularJS - Note App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
   </head>
   <body ng-app="noteApp" ng-controller="noteController">
     <h2>My Note</h2>
@@ -17,6 +17,6 @@
     <p ng-hide="isNoteSaved">Number of characters left: <span ng-bind="left()"></span></p>
     <!-- Show this when the note is saved -->
     <p ng-show="isNoteSaved">Note Saved!</p>
-    
+
   </body>
 </html>
